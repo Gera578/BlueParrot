@@ -1,0 +1,235 @@
+.degradado{
+  background-image: linear-gradient(to left, #7bb6ff, #9370db);
+
+}
+html  {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    /*media queries para uso de celular*/
+    @media (max-width: 480px){
+        font-size: 14px;
+
+    }
+
+}
+
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    font-style: bold;
+    margin: 1rem 0;
+    color: rgb(255, 255, 255);
+}
+
+.subtitulo{
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    margin: 1rem 0 -5rem 0;
+    color: rgb(227, 224, 224);
+}
+
+.d-none{
+    display: none !important;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+
+}
+
+#inputTitulo{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.50rem;
+    border: 2px solid #ccc;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #45a049;
+  }
+  
+  .boton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .boton:active {
+    transform: translateY(1px);
+  }
+  
+  .btn-detalles {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-detalles:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-detalles:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-detalles:active {
+    transform: translateY(1px);
+  }
+
+.resultado-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#resultados-series{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    justify-content: space-between; /* Agrega espacio entre las columnas */
+
+    margin-top: 2rem;
+}
+
+#detalle-serie {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    justify-content: space-between; /* Agrega espacio entre las columnas */
+    margin-top: 2.1rem;
+  }
+  
+  .col-md-4 {
+
+    flex: 1;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+
+    .col-md-4 h5{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+    }
+
+  .well img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .well h5 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .well .btn {
+    margin-top: 10px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  /* Media query para dispositivos móviles */
+  @media (max-width: 767px) {
+    .col-md-4 {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+        font-size: small;
+    }
+  }
+@media (min-width: 1024px){
+    .col-md-4{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+    }
+}  
+
+.fav{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    background-color: #16283b;
+}
+
+.fav h1{
+    color: #f1f1f1;
+}
+#favoritos-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 2rem;}
+.favorito{
+    color: #f1f1f1;
+}
+
+.nada{
+  background-color: #000000;
+  padding: 0.1rem;
+}

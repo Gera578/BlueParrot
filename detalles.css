@@ -1,0 +1,156 @@
+
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+
+    /*media queries para uso de celular*/
+    @media (max-width: 480px){
+        font-size: 14px;
+
+    }
+}
+
+
+
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+#detalle-serie p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #45a049;
+  }
+  
+  .boton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .boton:active {
+    transform: translateY(1px);
+  }
+  
+  .btn-detalles {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-detalles:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-detalles:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-detalles:active {
+    transform: translateY(1px);
+  }
+
+
+
+/* Estilos para la clase "episode" */
+.episode {
+    margin-bottom: 10px;
+
+}
+  
+.episode h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.episode p {
+    font-size: 10px;
+    margin-top: 2px;
+}
+  
+/* Estilos para la clase "temporada" */
+.temporada {
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+  
+.temporada h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+/* Estilos para la clase "temporada-contenido" */
+.temporada-contenido {
+    display: none;
+    margin-left: 20px;
+}
+  
+.temporada-contenido p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.detalle-episodio{
+    font-size: small;
+}
+
+.favorito-btn {
+    margin-top: 0.5rem;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .favorito-btn i {
+    margin-right: 5px;
+  }
+  
+.favs{
+    margin-top: 1rem;
+    font-size: 24px;
+    color: #020202;
+}
